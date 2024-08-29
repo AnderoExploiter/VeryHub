@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Slap Batlles", IntroEnabled = false, HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Slap Battles", IntroEnabled = false, HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local MainTab = Window:MakeTab({
 	Name = "Main",
@@ -9,7 +9,7 @@ local MainTab = Window:MakeTab({
 })
 
 MainTab:AddButton({
-	Name = "Button!",
+	Name = "Farm Slaps (Equip Reverse or not work)",
 	Callback = function()
         if not game:IsLoaded() then
             game.Loaded:Wait()
