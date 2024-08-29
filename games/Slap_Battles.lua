@@ -12,4 +12,5 @@ MainTab:AddButton({
 	Name = "Farm Slaps (Equip Reverse or not work)",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/AnderoExploiter/VeryHub/main/games/FarmSlapsSlapBattles.lua'))()
-    })
+  	end    
+})
