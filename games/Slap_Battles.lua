@@ -9,7 +9,7 @@ local MainTab = Window:MakeTab({
 })
 
 MainTab:AddButton({
-	Name = "Farm Slaps (Equip Reverse or not work)",
+	Name = "Farm Slaps (Equip Reverse or not work) (Click again to start new farm)",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/AnderoExploiter/VeryHub/main/games/FarmSlapsSlapBattles.lua'))()
   	end    
