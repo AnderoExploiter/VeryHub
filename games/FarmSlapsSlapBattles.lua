@@ -193,7 +193,7 @@ wait(3.75)
 fireclickdetector(workspace.Lobby.Reverse.ClickDetector)
 wait(0.3)
 if _G.Setting.ResetLoop == true then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Playgiang/Slap_Battles/main/File/Farm_Slap_Ramke.lua"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AnderoExploiter/VeryHub/main/games/FarmSlapsSlapBattles.lua'))()
 end
 end
 end
