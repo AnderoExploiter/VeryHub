@@ -14,3 +14,10 @@ MainTab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/AnderoExploiter/VeryHub/main/games/FarmSlapsSlapBattles.lua'))()
   	end    
 })
+
+MainTab:AddButton({
+	Name = "Get bob instant (Need Gods Hand)",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/AnderoExploiter/VeryHub/main/games/bobGH.lua'))()
+  	end    
+})
