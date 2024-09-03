@@ -10,5 +10,10 @@ if game.PlaceId == 6403373529 then
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/AnderoExploiter/VeryHub/main/games/Slap_Battles.lua'))()
     else
-        error("Game Unsuported")
+        OrionLib:MakeNotification({
+            Name = "Info",
+            Content = "Game Unsupported",
+            Image = "rbxassetid://4483345998",
+            Time = 7
+        })
     end
